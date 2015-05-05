@@ -1,0 +1,96 @@
+<!--
+Microsoft Sculpt Comfort Mouse Binding for OSX (using Karabiner)
+modified by midnightsalesman
+-->
+<?xml version="1.0"?>
+ <root>
+   <devicevendordef>
+     <vendorname>MICROSOFT</vendorname>
+     <vendorid>0x045e</vendorid>
+   </devicevendordef>
+ 
+   <deviceproductdef>
+     <productname>SCULPT_COMFORT</productname>
+     <productid>0x07a2</productid>
+   </deviceproductdef>
+   <item>
+     <name>Windows Button to LaunchPad (Microsoft Sculpt Comfort Mouse)</name>
+     <identifier>com.microsoft.mouse.sculpt_comfort.win_button</identifier>
+     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
+     <autogen>
+       __KeyToKey__
+       KeyCode::COMMAND_L,
+       KeyCode::LAUNCHPAD
+     </autogen>
+   </item>
+   <item>
+     <name>Slide Up to Backward (Microsoft Sculpt Comfort Mouse)</name>
+     <identifier>com.microsoft.mouse.sculpt_comfort.slide_up</identifier>
+     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
+     <autogen>
+       __KeyToKey__
+       KeyCode::DELETE, ModifierFlag::CONTROL_L,
+       KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L
+     </autogen>
+   </item>
+   <item>
+     <name>Slide Down to Forward (Microsoft Sculpt Comfort Mouse)</name>
+     <identifier>com.microsoft.mouse.sculpt_comfort.slide_down</identifier>
+     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
+     <autogen>
+       __KeyToKey__
+       KeyCode::TAB, ModifierFlag::CONTROL_L,
+       KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L
+     </autogen>
+   </item>
+   <item>
+     <name>Scroll Left to Backward (Microsoft Sculpt Comfort Mouse)</name>
+     <identifier>com.microsoft.mouse.sculpt_comfort.scroll_left</identifier>
+     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
+     <autogen>
+       __ScrollWheelToKey__
+       ScrollWheel::LEFT,
+       KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L
+     </autogen>
+   </item>
+   <item>
+     <name>Scroll Right to Forward (Microsoft Sculpt Comfort Mouse)</name>
+     <identifier>com.microsoft.mouse.sculpt_comfort.scroll_right</identifier>
+     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
+     <autogen>
+       __ScrollWheelToKey__
+       ScrollWheel::RIGHT,
+       KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L
+     </autogen>
+   </item>
+   <item>
+     <name>Scroll Left to Backward Space(Microsoft Sculpt Comfort Mouse)</name>
+     <identifier>com.microsoft.mouse.sculpt_comfort.scroll_leftspace</identifier>
+     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
+     <autogen>
+       __ScrollWheelToKey__
+       ScrollWheel::LEFT,
+       KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L
+     </autogen>
+   </item>
+   <item>
+     <name>Scroll Right to Forward Space(Microsoft Sculpt Comfort Mouse)</name>
+     <identifier>com.microsoft.mouse.sculpt_comfort.scroll_rightspace</identifier>
+     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
+     <autogen>
+       __ScrollWheelToKey__
+       ScrollWheel::RIGHT,
+       KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
+     </autogen>
+   </item>
+   <item>
+     <name>Mouse Middle Button to Mission Control(Microsoft Sculpt Comfort Mouse)</name>
+     <identifier>com.microsoft.mouse.sculpt_comfort.scroll_middle</identifier>
+     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
+     <autogen>
+       __KeyToKey__
+       PointingButton::MIDDLE,
+       KeyCode::MISSION_CONTROL,
+     </autogen>
+   </item>
+ </root>
