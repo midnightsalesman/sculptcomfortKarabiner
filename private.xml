@@ -24,7 +24,7 @@ modified by midnightsalesman, original by user inceax
      </autogen>
    </item>
    <item>
-     <name>Slide Up to Backward (Microsoft Sculpt Comfort Mouse)</name>
+     <name>Slide Down to Backward (Microsoft Sculpt Comfort Mouse)</name>
      <identifier>com.microsoft.mouse.sculpt_comfort.slide_up</identifier>
      <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
      <autogen>
@@ -34,7 +34,7 @@ modified by midnightsalesman, original by user inceax
      </autogen>
    </item>
    <item>
-     <name>Slide Down to Forward (Microsoft Sculpt Comfort Mouse)</name>
+     <name>Slide Up to Forward (Microsoft Sculpt Comfort Mouse)</name>
      <identifier>com.microsoft.mouse.sculpt_comfort.slide_down</identifier>
      <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
      <autogen>
