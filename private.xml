@@ -44,26 +44,6 @@ modified by midnightsalesman, original by user inceax
      </autogen>
    </item>
    <item>
-     <name>Scroll Left to Backward (Microsoft Sculpt Comfort Mouse)</name>
-     <identifier>com.microsoft.mouse.sculpt_comfort.scroll_left</identifier>
-     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
-     <autogen>
-       __ScrollWheelToKey__
-       ScrollWheel::LEFT,
-       KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L
-     </autogen>
-   </item>
-   <item>
-     <name>Scroll Right to Forward (Microsoft Sculpt Comfort Mouse)</name>
-     <identifier>com.microsoft.mouse.sculpt_comfort.scroll_right</identifier>
-     <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
-     <autogen>
-       __ScrollWheelToKey__
-       ScrollWheel::RIGHT,
-       KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L
-     </autogen>
-   </item>
-   <item>
      <name>Scroll Left to Backward Space(Microsoft Sculpt Comfort Mouse)</name>
      <identifier>com.microsoft.mouse.sculpt_comfort.scroll_leftspace</identifier>
      <device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_COMFORT</device_only>
